@@ -1,0 +1,463 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    background: radial-gradient(#ffffff,rgba(188,129,63,255));
+   
+}
+/* body .header{
+height: 500px;
+} */
+
+.container{
+padding-top: 60px;
+
+
+}
+.heading {
+    color: #ffffff;
+    font-size: 100px;
+    /* margin-top:90px; */
+    margin-left: 750px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.container_1{
+    display: flex;
+    justify-content:space-between; 
+    margin-left: 200px;
+}
+
+.container_3 {
+    font-size: large;
+    color: #000;
+    margin:200px 200px 0px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+     margin-left:-200px; 
+     margin-top: -180px;
+     margin-bottom: 500px;
+}
+.container_3 h1{
+font-size: 40px;
+}
+
+
+.container_3 h4 {
+    color: #4a4747;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 250px;
+    background: radial-gradient(#ffffff,rgba(188,129,63,255));
+    color: #4a4747; 
+    transition: background 0.5s;
+    font-size: 15px;
+}
+.btn:hover {
+    cursor:pointer;
+    background-color: rgb(232, 157, 65);
+}
+
+.Container_Background{
+    position: absolute;
+    background-color: #ffffff;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       /* z-index: -3; 
+       transform: skewY(-6deg); */
+       border-radius: 5px;
+       
+}
+
+.Explore__menu__text {
+    margin: 30px 0px 40px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #1d3557
+}
+
+.Explore__menu__gradient__bg {  /*child container*/
+        
+    position:absolute;
+     top: 800px;
+     left: 0;
+     /* width: 100%;
+     height: 100%; */
+     margin-left: 200px;
+     margin-right: 200px;
+     background-color: #ffffff62;
+     padding:300px 500px 2000px 600px;
+       z-index: -3;  /*images will be go on below the image*/
+        transform: skewY(-6deg); 
+         border-radius: 10px;
+}
+  
+  .Explore__menu__lists {
+    gap: 25px;
+    /* padding-left: 80px; */
+    margin-left: 20px;
+}
+
+
+.food__card {
+
+    background: radial-gradient(#ffffffb6,rgba(188,129,63,255));
+    border-radius: 8px 8px 8px 8px;
+    transition: transform 0.5s;
+
+}
+
+.food__card:hover {
+
+transform: translateY(-10px);
+}
+
+.food__card__image__container {
+    width: 100px;
+    height: 330px;
+
+
+}
+
+
+
+.food__image {
+   
+  
+    width: 330%;
+    height: 300px;
+    border-radius: 8px 8px 0px 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+    
+}
+
+.food__image1 {
+   
+  
+    width: 305%;
+    height: 300px;
+    border-radius: 8px 8px 0px 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+    
+}
+
+.food__image2 {
+   
+  
+    width: 341%;
+    height: 300px;
+    border-radius: 8px 8px 0px 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+    
+}
+
+.food__card__description {
+    padding: 40px;
+    box-sizing: border-box;
+   
+}
+
+.food__title {
+    border-radius: 0px 0px 8px 8px;
+    text-align: center;
+     font-size: 25px;
+   
+}
+
+span {
+    color: rgba(49, 12, 235, 0.607);
+    margin-left: 10px;
+    font-size: 12px;
+    
+}
+
+.Explore__menu__text {
+    margin: 30px 0px 40px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #1d3557
+}
+
+.Explore__menu__lists {
+    display: flex;
+    /* padding-top: 20px; */
+    gap: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.Explore__menu__container {
+    margin-top: -300px;
+    margin-left: 200px;
+}
+/* @media (min-width:768px) {
+    /* .Explore__menu__lists {
+        display: flex;
+        /* padding-top: 20px; */
+        /* gap: 15px;
+        padding-right: 20px;
+        padding-left: 20px; */
+    /* }  */
+
+
+    /* #pizza__card {
+        margin-top: -20px;
+        /*it is decreses margin thats why we use -20px*/
+        /* margin-bottom: 30px; */
+    /* }
+
+    .navbar {
+        justify-content: space-between;
+        /*it is adjust the parent div padding and space*/
+        /* padding: 10px 30px;
+    }
+
+    .hero__container { */ 
+
+        /* margin-top: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+
+    } */
+
+    /* .hero__text {
+        font-size: 35px;
+    }*/
+
+    .Pricing_Container{
+        text-align: center;
+        margin-right: 250px;
+        margin-top: 50px;
+    }
+
+    .Pricing{
+        font-size: 50px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+
+    .Price{
+        text-align: center;
+       
+    }
+
+    .Phrase{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        font-weight: 700;
+    }
+
+    .price_container{
+       display: flex;
+       justify-content:center;
+       gap: 15PX;
+       margin-right: 250PX;
+    }
+
+    .price_div{
+        background-color:bisque;
+        padding: 5px 180px 5px 180px;
+    }
+    .pricer_div{
+        background-color:aliceblue;
+        padding: 15px 50px 80px 60px; 
+        margin-left: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .percentage{
+        align-items: center;
+        margin-left: 10px;
+        color:rgb(5, 54, 110);
+        font-size: 50px;
+    }
+
+.standard{
+    color: rgba(172, 151, 13, 0.607);
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.Digital_Distribution {
+    font-size: 15px;
+    color: rgb(5, 42, 87);
+}
+.Distribute_music{
+    display: flex;
+    justify-content:center;
+    gap: 15PX;
+    margin-right: 250PX;
+    margin-bottom: -20px;
+    margin-top: -50px;
+ }
+
+ .next_section {
+    background-color: antiquewhite; 
+    margin: 80px 235px 100px 200px;
+    height: 650px;
+
+ 
+ }
+
+ .Mikes_img{
+   height: 20px;
+   width:20px;
+   margin-left: 1000px;
+   margin-bottom: -500px;
+ }
+ .music_text{
+    color:olive;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20% 50px 50px 230px;
+    text-align: center;
+    margin-right: 40px;
+ }
+/* 
+ .distribute_div{
+    margin-top: 50%;
+ } */
+  .mike{
+    margin-top:190px;
+    margin-left: 20px;
+  }
+  .CD_text{
+    font-size: 15px;
+    color:rgb(227, 173, 10);
+    margin-left: 200px;
+    text-align: center;
+  }
+  .btn1{
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 220px;
+    margin-right: 30px;
+    background: radial-gradient(#ffffff,rgba(188,129,63,255));
+    color: #4a4747; 
+    transition: background 0.5s;
+    font-size: 15px;
+}
+.btn1:hover {
+    cursor:pointer;
+    background-color: rgb(232, 157, 65);
+}
+.contact{
+   
+    padding-bottom: 40px;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px 40px 20px 20px;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(233, 200, 118, 0.514);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  button{
+    background: radial-gradient(#ffffff,rgba(188,129,63,255));
+    color: #111010;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 210px;
+  }
+  
+  button:hover {
+    background-color: #00043f;
+  }
+
+  footer {
+    background: rgba(188,129,63,255);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin-right: 20px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.2s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ccc;
+  }
+  
+  .fa {
+    font-size: 18px;
+  }
+
+  .col-2 h2{
+   color: #fff;
+    font-size: 30px;
+    margin-top: -100px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 50px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.Dis {
+   color:olive;
+   /* color:rgb(227, 173, 10); */
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin: 20% 50px 50px 230px; */
+}
